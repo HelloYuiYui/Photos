@@ -1,8 +1,26 @@
+/* MIN 720px WIDTH */
+
+@media only screen and (min-width: 720px) {
+    .photos {
+        width: 90%;
+        margin: auto;
+    }
+}
+
 /* MAIN BIT */
 
+::selection {
+    color: azure;
+    background-color: firebrick;
+}
+
 body {
-    width: 90%;
+    width: 100%;
     margin: 12px auto;
+}
+
+ul {
+    padding: 0;
 }
 
 ul li {
@@ -36,40 +54,44 @@ a {
 
 #main {
     text-align: center;
+    margin: 0;
     color: firebrick;
     font-size: 72px;
     font-family: "Open Sans", sans-serif;
 }
 
-::selection {
-    color: azure;
-    background-color: firebrick;
-}
-
 /* PHOTO PAGES */
 
-.photos .photo img {
+.photos {
+    margin-top: 1.5rem;
+}
+
+.photos .photo {
+    margin: auto auto 2rem auto;
+    text-align: justify;
     width: 100%;
+}
+
+.photos .photo img {
+    max-width: 100%;
     display: block;
     margin: 0 auto 5px auto;
 }
 
 .photos .photo .descr {
-    margin: 0 0 0 5px;
-    font-size: 20px;
-    display: inline;
+    margin: 0 0 0 1rem;
+    font-size: 16px;
+    display: inline-block;
+    float: left;
     font-style: italic;
 }
 
 .photos .photo .date {
-    margin: 0 5px 0 0;
-    display: inline;
+    margin: 0 1rem 0 0;
+    display: inline-block;
     float: right;
-    
 }
 
-.photos .photo {
-    margin: auto auto 3em auto;
-    text-align: justify;
-    width: 60em;
+.photos .photo hr {
+    width: 90%;
 }
