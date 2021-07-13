@@ -1,0 +1,75 @@
+/* MAIN BIT */
+
+body {
+    width: 90%;
+    margin: 12px auto;
+}
+
+ul li {
+    background-color: antiquewhite;
+    padding: 15px 0 15px 0;
+    border-radius: 8px;
+    list-style-type: none;
+    width: 320px;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 40px;
+}
+
+ul li a {
+    margin: auto;
+    width: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: black;
+    font-size: 28px;
+    font-family: "Vollkorn", serif;
+    text-decoration: none;
+}
+
+#places {
+    margin: auto;
+}
+
+#main {
+    text-align: center;
+    color: firebrick;
+    font-size: 72px;
+    font-family: "Open Sans", sans-serif;
+}
+
+::selection {
+    color: azure;
+    background-color: firebrick;
+}
+
+/* PHOTO PAGES */
+
+.photos .photo img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 5px auto;
+}
+
+.photos .photo .descr {
+    margin: 0 0 0 5px;
+    font-size: 20px;
+    display: inline;
+    font-style: italic;
+}
+
+.photos .photo .date {
+    margin: 0 5px 0 0;
+    display: inline;
+    float: right;
+    
+}
+
+.photos .photo {
+    margin: auto auto 3em auto;
+    text-align: justify;
+    width: 60em;
+}
