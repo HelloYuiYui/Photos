@@ -41,12 +41,12 @@
     }
     
     #Edinburgh {
-        background-image: url("Photos/Edinburgh/caltonHill.jpg")
+        background-image: url("Photos/Edinburgh/CaltonHill.jpg")
         background-position: 50% -95px !important;
     }
 
     #Glasgow {
-        background-image: url("Photos/Glasgow/southernCambuslang.jpg");
+        background-image: url("Photos/Glasgow/SouthernCambuslang.jpg");
         background-position: 50% -240px !important;
     }
 
@@ -103,12 +103,12 @@ ul li {
 }
 
 #Edinburgh {
-    background-image: url("Photos/Edinburgh/caltonHill.jpg");
+    background-image: url("Photos/Edinburgh/CaltonHill.jpg");
     background-position: 50% -95px;
 }
 
 #Glasgow {
-    background-image: url("Photos/Glasgow/southernCambuslang.jpg");
+    background-image: url("Photos/Glasgow/SouthernCambuslang.jpg");
     background-position: 50% -240px;
 }
 
