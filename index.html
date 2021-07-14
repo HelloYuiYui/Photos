@@ -5,22 +5,26 @@
     <meta charset="utf-8">
     <meta lang="en">
     <meta name="description" content="A personal portfolio website to display my works">
-    
+    <link rel="shortcut icon" href="favicon.ico">
     <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Vollkorn&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1 id="main">Enes&nbsp;Aydogan</h1>
-        <div id="places">
+        <header>
+            <h1 id="main">Enes&nbsp;Aydogan</h1>
+            <hr style="width: 40%;">
+        </header>"
+        <div id="places">&
             <ul>
-                <li><a href="Edinburgh.html">Edinburgh</a></li>
-                <li><a href="Glasgow.html">Glasgow</a></li>
-                <li><a href="Trossachs.html">Trossachs & Ben&nbsp;A'an</a></li>
-                <li><a href="Millport.html">Great Cumbrae</a></li>
-                <li><a href="Inverness.html">Inverness & Loch&nbsp;Ness</a></li>
+                <li><a href="Edinburgh.html"><span class="thumbnail" id="Edinburgh"></span>Edinburgh</a></li>
+                <li><a href="Glasgow.html"><span class="thumbnail" id="Glasgow"></span>Glasgow</a></li>
+                <li><a href="Trossachs.html"><span class="thumbnail" id="Trossachs"></span>Trossachs & Ben&nbsp;A'an</a></li>
+                <li><a href="Millport.html"><span class="thumbnail" id="Millport"></span>Great Cumbrae</a></li>
+                <li><a href="Inverness.html"><span class="thumbnail" id="Inverness"></span>Inverness & Loch&nbsp;Ness</a></li>
             </ul>
         </div>
     </body>
+    <script src="script.js" onload="getFooter()"></script>
 </html>
