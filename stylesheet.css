@@ -182,6 +182,7 @@ footer {
     display: inline-block;
     float: left;
     font-style: italic;
+    text-justify: none;
 }
 
 .photos .photo .date {
