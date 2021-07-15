@@ -70,7 +70,7 @@ function createDiv (place, fileName, descr, date) {
 
 function loadHeader (title) {
     var header = "<header> \
-                    <a href=\"www.enesia.co.uk\"><h1 id=\"main\">" + title + "</h1></a> \
+                    <a href=\"https://www.enesia.co.uk\"><h1 id=\"main\">" + title + "</h1></a> \
                     <hr style=\"width: 40%\"> \
                   </header>";
     document.write(header)
