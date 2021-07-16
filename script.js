@@ -18,6 +18,7 @@ var photos = {
                        "CaltonHill;;Calton Hill as it is seen from Princes Street. Took that route on my way to Appleton Tower every Monday during my first semester, also love Calton Hill, gotta be one of my favourite spots in Edinburgh.;;15 December 2020",
                        "Canal;;The canal, was walking right beside the canal with some friends, got to meet Mr. Cat that day in a church yard too!;;###",
                        "Grassmarket;;Grassmarket on a sunny day.;;26 May 2021",
+                       "Fountain;;Ross fountain at Prince's Street Garden and the Edinburgh castle in the background;;###",
                        "GermanSausage;;Bavarian sausage stand on Prince's Street. I like the Bavarian flags.;;###",
                        "PrincesStGarden;;View from the entrance of the Princes St Gardens.;;26 June 2021"],
         "Trossachs" : ["theCastle;;The castle view from the path to Ben A'an.;;###",
