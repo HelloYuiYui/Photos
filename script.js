@@ -1,5 +1,5 @@
 var photos = {
-        "Glasgow" : ["ChristmasEve;;Christmas Eve of 2018, gotta be one of my favourite photos even   though I didn't expect it to look that nice when my plan was to just capture the moment and a memory from a nice day.;;24 December 2018",
+        "Glasgow"   : ["ChristmasEve;;Christmas Eve of 2018, gotta be one of my favourite photos even   though I didn't expect it to look that nice when my plan was to just capture the moment and a memory from a nice day.;;24 December 2018",
                      "SouthernCambuslang;;Glasgow during sunset, taken from the road to East Kilbride, during one of my long cycling days.;;###",
                      "GlasgowHorizon;;Glasgow during sunset pt 2.;;###",
                      "commieBlocks;;Southeastern Glasgow, always loved looking at those blocks for some reason. Important to note it was a snowy occasion which isn't that common in Scotland.;;###",
@@ -27,7 +27,7 @@ var photos = {
                        "lochVenachar;;Another nearby loch, Loch Venachar, photo from a small café right beside the loch.;;###",
                        "mountains;;Faraway mountains seen from the top of Ben A'an.;;##",
                        "branches;;Branches of a tree near Loch Venachar;;###"],
-        "Millport" : ["northernLargs;;Northern parts of Largs, a town located at western coast of Scotland just across lies the isle of Great Cumbrae.;;###", 
+        "Millport"  : ["northernLargs;;Northern parts of Largs, a town located at western coast of Scotland just across lies the isle of Great Cumbrae.;;###", 
                       "northernLargs2;;I walked the entire coast of Largs multiple times with my uncle years ago, fun times.;;###",
                       "millport;;Town of Millport on the isle of Great Cumbrae, very small and cozy but to be honest also very boring and dull.;;###",
                       "flowers;;Pretty flowers in the garden of the Garrison House in Millport, one reserved for the military, now serves as a restaurant and a tourist attraction.;;###",
@@ -43,12 +43,22 @@ var photos = {
                        "invernessChurch;;Hey! a pretty church ahead, must take photos!;;###",
                        "lochNess;;Mighty Loch Ness! finally! unfortunate news though, no sign of the Nessie apart from the souvenirs you can find in Inverness ://;;###",
                        "urquhartCastle;;An old castle, once used by the Jacobites, then destroyed by the British so Jacobites couldn't use it again.;;###",
-                       "fortAugustus;;Fort Augustus, a small-ish town at the southern tip of Loch Ness where we ended our trip properly since it got too dark to take photos afterwards.;;###"]
+                       "fortAugustus;;Fort Augustus, a small-ish town at the southern tip of Loch Ness where we ended our trip properly since it got too dark to take photos afterwards.;;###"],
+        "Sofia"     : ["Vitoshka;;Vitoshka is a popular pedestrian street in central Sofia with a lot of local restaurants and small shops surrounding it. Looking at the Mount Vitosha on the one side and St Nedelya church on the other, it is a refreshing break to chill out and have an ice cream too!;;###",
+                       "NDK;;Apparently a cultural centre built during the socialist days. Walking southwards from Vitoshka you will be greeted by a large public park with fountains as well as the NDK in the end.;;###",
+                       "StNedelya;;Walking northwards from Vitoshka this time, St Nedelya Orthodox church provides a central church for people to come and pray if they please with a majestic view of the Mount Vitosha at the background watching over the city with all its might.;;###", 
+                       "Church;;Russian orthodox church in Sofia is quite a small one when it comes to interior space yet has an astonishingly beautiful architecture and is really soothing to look at. They don't allow you to take photos indoors, and there is a fairly expensive Russian restaurant right across the street with nice cakes.",
+                       "Sofia;;Sofia as seen from the old and abondoned cable car station thingy at Mount Vitosha.;;###",
+                       "Garibaldi;;Garibaldi has a nice tram line, also where I ordered an ice cream with my non-existent Bulgarian skills 8);;###",
+                       "BanyaBashi;;Interestingly enough there is also a mosque at a very central location in Sofia, a few hundred yards from St Nedelya. I was surprised to hear the call the prayer in Sofia.;;###",
+                       "Lyulin10;;Me being me, and loving high brutalist buildings for some unknown reason, decided to go to the residential region of Lyulin and walking around and taking photos of big concrete buildings. These Blocks 146-149 are apparently the highest in Lyulin region.;;###",
+                       "Lyulin5;;At one point in the good old past, I was a resident of this part of the city apparently (Lyulin 5). Even though I don't remember any of those days anymore, I weirdly feel a slim yet clear connection to here. I may or may not have tweaked the composition of the photo to make the building look more straight o_o;;###",
+                       "Airport;;About 3 hours before leaving Sofia and heading back home. It was quite a nice trip and I loved every second of it :) Special thanks to a particular family friend for showing us around and suggesting nice places to visit and dine! Hopefully I will get the chance to visit again in the near future.;;###"]
     };
 
 function loadPhotos (place) {
     
-    document.write("<ul class=\"photos\">");
+    document.write("<div class=\"photos\">");
     
     for (var photoID in photos[place]) {
         var vals = parsePhotoDescription(photos[place][photoID]);
@@ -59,7 +69,7 @@ function loadPhotos (place) {
         document.write(div);
     }
     
-    document.write("</ul>");
+    document.write("</div>");
 }
 
 function parsePhotoDescription (raw) {
@@ -87,7 +97,7 @@ function loadHeader (title) {
 
 function getFooter() {
     var footer = "<footer> \
-                    <span>Enes&nbsp;Aydogan<br>Glasgow 2021</span> \
+                    <span>Enes&nbsp;Aydogan<br>Glasgow 2022</span> \
                 </footer>";
     document.write(footer)
 }
