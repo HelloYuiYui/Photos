@@ -82,11 +82,12 @@ a {
 
 .container .item a .name {
     color: black;
-    font-size: 28px;
+    font-size: 36px;
     margin: 8px auto 12px auto;
     width: auto;
     font-family: "Vollkorn", serif;
     text-align: center;
+    letter-spacing: 0.25rem;
 }
 
 .thumbnail {
